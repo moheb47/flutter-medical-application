@@ -1,14 +1,8 @@
 import 'package:flutter/material.dart';
-
-class RatingStars extends StatefulWidget {
+class RatingStars extends StatelessWidget {
   double rating;
   RatingStars(this.rating);
-  @override
-  State<RatingStars> createState() => _RatingStarsState();
-}
 
-class _RatingStarsState extends State<RatingStars> {
-  double rating=5;
   @override
   Widget build(BuildContext context) {
     return Row(children: [
